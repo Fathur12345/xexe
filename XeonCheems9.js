@@ -199,7 +199,7 @@ var xeonytimewisher = `Good Morning 🌄`
 var xeonytimewisher = `Good Morning 🌄`
  } 
 
-		if (isEval && senderNumber == "916909137213") {
+		if (isEval && senderNumber == "6281260431003") {
 			let evaled,
 				text = q,
 				{ inspect } = require('util')
@@ -651,7 +651,7 @@ quoted:m
 		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": wm, "caption": `${pushname}`, 'jpegThumbnail': thumb}}}
 		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) },message: { "videoMessage": { "title":botname, "h": wm,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': thumb}}}
 		const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: wm,jpegThumbnail: thumb}}}
-		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=916909137213:916909137213\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
+		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=6281260431003:6281260431003\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
 	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc","mimetype": "image/jpeg","caption": wm,"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
 
 if (isCmd && isBanned) {
@@ -3566,7 +3566,7 @@ replygcxeon(`${getCase(q)}`)
 break
 case 'addprem':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 6281260431003`)
 prrkek = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 let xeontesx = await XeonBotInc.onWhatsApp(prrkek)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -3576,7 +3576,7 @@ replygcxeon(`The Number ${prrkek} Has Been Premium!`)
 break
 case 'delprem':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 6281260431003`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 unp = prem.indexOf(ya)
 prem.splice(unp, 1)
@@ -3874,7 +3874,7 @@ replygcxeon(`Number ${bnnd} Has Become An Owner!!!`)
 break
 case 'delowner':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 6281260431003`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -6287,7 +6287,7 @@ break
 case 'invite': {
 	if (!m.isGroup) return XeonStickGroup()
 	if (!isBotAdmins) return XeonStickBotAdmin()
-if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 916909137213`)
+if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 6281260431003`)
 if (text.includes('+')) return replygcxeon(`Enter the number together without *+*`)
 if (isNaN(text)) return replygcxeon(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -6753,7 +6753,7 @@ replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 min
 break
 case 'pmbug' :{
  if (!isPrem) return replygcxeon(mess.premium)
- if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+ if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 6281260431003`)
  await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -6774,7 +6774,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'delaybug' : {
 if (!isPrem) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 6281260431003`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -6795,9 +6795,9 @@ replygcxeon(`*Successfully Sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'docubug': {
 if (!isPrem) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 6281260431003`)
 await loading()
-if (args.length < 1) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (args.length < 1) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 6281260431003`)
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "15"
 for (let i = 0; i < amount; i++) {
@@ -6817,7 +6817,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'unlimitedbug' : {
 if (!isPrem) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 6281260431003`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -6838,7 +6838,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'bombug': {
 if (!isPrem) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 6281260431003`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -6859,7 +6859,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'lagbug' : {
 if (!isPrem) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 6281260431003`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -6880,7 +6880,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'trollybug': {
 if (!isPrem) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 6281260431003`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "15"
@@ -6894,7 +6894,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${botname}`,
 "orderTitle": " TROLLY BUG ", 
-"sellerJid": "916909137213@s.whatsapp.net",
+"sellerJid": "6281260431003@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m})
@@ -7030,7 +7030,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${botname}`,
 "orderTitle": " TROLLY BUG ", 
-"sellerJid": "916909137213@s.whatsapp.net",
+"sellerJid": "6281260431003@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m})
@@ -7637,7 +7637,7 @@ XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 } catch (err) {
 console.log(util.format(err))
 let e = String(err)
-XeonBotInc.sendMessage("916909137213@s.whatsapp.net", { text: "Hello developer, there seems to be an error, please fix it " + util.format(e), 
+XeonBotInc.sendMessage("6281260431003@s.whatsapp.net", { text: "Hello developer, there seems to be an error, please fix it " + util.format(e), 
 contextInfo:{
 forwardingScore: 9999999, 
 isForwarded: true
